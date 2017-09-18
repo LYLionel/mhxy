@@ -1,0 +1,166 @@
+@charset "UTF-8";
+body, html, p, h1, h2, h3, h4, div, input, form {
+  padding: 0;
+  margin: 0;
+  font: 12px "微软雅黑";
+  font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+}
+
+ol, ul, li, dt, dl, dd {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font: 12px "微软雅黑";
+  font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+}
+
+em, i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a, input {
+  outline: none;
+}
+
+img {
+  border: none;
+}
+
+body {
+  background: #fff;
+}
+
+#header_box {
+  width: 100%;
+  height: 56px;
+  background: #fff;
+}
+#header_box #header {
+  position: relative;
+  z-index: 2;
+  width: 1400px;
+  margin: 0 auto;
+  height: 56px;
+}
+#header_box #header .left_log {
+  height: 100%;
+  padding-left: 70px;
+  float: left;
+}
+#header_box #header .left_log img {
+  display: inline-block;
+  vertical-align: middle;
+}
+#header_box #header .left_log span {
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+#header_box #header .campaign {
+  float: left;
+}
+#header_box #header .header_right {
+  float: right;
+  height: 100%;
+  text-align: center;
+}
+#header_box #header .header_right > li {
+  padding-left: 30px;
+  float: left;
+  line-height: 56px;
+  height: 100%;
+  font-size: 16px;
+  position: relative;
+}
+#header_box #header .header_right > li .head_arrow {
+  position: absolute;
+  right: -6px;
+  top: 26px;
+  width: 12px;
+  height: 5px;
+  background: url(../img/logo.png) no-repeat -100px -100px;
+}
+#header_box #header .header_right .all_directory {
+  padding-right: 10px;
+}
+#header_box #header .header_right .all_directory > a {
+  color: #bc2e2e;
+}
+#header_box #header .header_right .all_directory .directory {
+  display: none;
+  position: absolute;
+  z-index: 30;
+  left: -950px;
+  top: 56px;
+  width: 1260px;
+  height: 530px;
+  background: rgba(255, 255, 255, 0.95);
+}
+#header_box #header .header_right .all_directory .directory .directory_left {
+  float: left;
+  width: 299px;
+  overflow: hidden;
+  border-right: 1px solid #ececec;
+}
+#header_box #header .header_right .all_directory .directory .directory_left .hd_p {
+  padding-left: 15px;
+  height: 39px;
+  line-height: 39px;
+  color: #BC2E2E;
+  font-size: 14px;
+  text-align: left;
+  background: #f7f7f8;
+}
+#header_box #header .header_right .all_directory .directory .directory_left > ul {
+  float: left;
+  overflow: hidden;
+}
+#header_box #header .header_right .all_directory .directory .directory_left > ul > li {
+  width: 110px;
+  padding-left: 15px;
+  line-height: 24px;
+  text-align: left;
+  background: url(../img/logo.png) no-repeat 10px -207px;
+}
+#header_box #header .header_right .all_directory .directory .directory_left > ul > li a {
+  color: #626262;
+}
+#header_box #header .header_right .all_directory .directory .directory_left > ul > p {
+  padding-left: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #626262;
+  text-align: left;
+}
+#header_box #header .header_right .all_directory .directory .directory_middle1 {
+  width: 828px;
+}
+#header_box #header .header_right .all_directory .directory .directory_middle1 > ul > li {
+  width: 127px;
+  margin-left: 10px;
+  background-position: 18px -146px;
+}
+#header_box #header .header_right .all_directory .directory .directory_middle1 .none_bg > li {
+  background-position: 30px 30px;
+}
+#header_box #header .header_right .all_directory .directory .directory_middle1 .phone_ul {
+  border-right: 1px solid #ececec;
+}
+#header_box #header .header_right .all_directory .directory .directory_right {
+  width: 131px;
+  overflow: hidden;
+  border: none;
+}
+#header_box #header .header_right .all_directory .directory .directory_right > ul > li {
+  background: 30px 30px;
+}
+
+.all_directory:hover .directory {
+  display: block !important;
+}
