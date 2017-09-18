@@ -303,6 +303,9 @@
   margin: 0 auto;
   overflow: hidden;
 }
+#main2_box #main2 .m2_tab .f1_content p {
+  cursor: pointer;
+}
 #main2_box #main2 .m2_tab .f1_content .f1_con_p1 {
   margin-top: 14px;
   height: 38px;
