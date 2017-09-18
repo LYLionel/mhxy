@@ -10,6 +10,7 @@ requirejs.config({
 		"hoverdir" : "minjs/jquery.hoverdir.min",
 		"common" : "common",
 		"loadHTML" : "js/index/load",
+		"list_loadHTML" : "js/list/load",
 		"jsonp"	: "js/jsonp"
 	}
 })

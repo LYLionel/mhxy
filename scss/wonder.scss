@@ -1,0 +1,57 @@
+#wonderful_box{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+#wonderful{
+    width: 100%;
+    h4{
+        color: #23b0eb;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .wonderful-wrap{
+        .won-wrapper{
+            ul{
+                .newslist{
+                    font-size: 0;
+                    padding: 25px 0 50px;
+                    border-bottom: 1px solid #e2e3e3;
+                    .news-info{
+                        margin-bottom: 20px;
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 100%;
+                        a{
+                            color: #4d5158;
+                            h5{
+                                color: #000;
+                                font: 400 20px/28px "Microsoft Yahei";
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                position: relative;
+                                width: 100%;
+                                span{
+                                    display: block;
+                                    width: 85%;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                }
+                                .time{
+                                    color: #aeaeae;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    position: absolute;
+                                    right: 0;
+                                    top: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

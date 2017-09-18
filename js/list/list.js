@@ -1,5 +1,4 @@
 require(["../config"],function(){
-	require(["jquery","loadHTML"],function($){
-		console.log("我加载了")
+	require(["jquery","loadHTML","list_loadHTML"],function($){
 	})
 })
