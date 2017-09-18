@@ -73,6 +73,7 @@
   font-size: 16px;
 }
 .article #form #user .u-tip {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -121,6 +122,7 @@
   font-size: 16px;
 }
 .article #form #password .u-tip {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -194,6 +196,7 @@
   width: 118px;
 }
 .article #form .m-nerror {
+  display: none;
   margin-top: 14px;
   top: -31px;
   left: -1px;
