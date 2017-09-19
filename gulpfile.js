@@ -9,6 +9,11 @@ var rename = require("gulp-rename"); //重新命名模块
 var sass = require("gulp-ruby-sass"); //sass
 
 var connect = require("gulp-connect"); // 热部署
+
+var webserver = require("gulp-webserver"); //热部署反向代理
+
+var proxy = require('http-proxy-middleware')
+
 gulp.task("JS",function(){
 	gulp.src("./plug/*.js").pipe(babel({
 		presets: ["es2015"]
@@ -25,14 +30,28 @@ gulp.task("refreshHTML",function(){
 	gulp.src('./html/*.html').pipe(connect.reload());
 })
 
+gulp.task("webserver",function(){
+	gulp.src('./').pipe(
+		webserver({
+			host: 'localhost',
+			port: 8000,
+			livereload: true,
+			directoryListing: {
+				enable: true,
+				path: './'
+			}
+		})
+	)
+})
+
 gulp.task("listen",function(){
-	
-	connect.server({
-		livereload:true
-	});
-	
+
 	gulp.watch("./scss/*.scss",["compilesass"]);
 	gulp.watch("./css/*.css",["refreshHTML"]);
 	gulp.watch("./plug/*.js",["JS"]);
 	gulp.watch("./html/*.html",["refreshHTML"]);
+})
+
+gulp.task('default',["listen","webserver"],function(){
+	console.log('我执行了')
 })

@@ -17,6 +17,7 @@
                     font-size: 0;
                     padding: 25px 0 50px;
                     border-bottom: 1px solid #e2e3e3;
+                    overflow: hidden;
                     .news-info{
                         margin-bottom: 20px;
                         display: inline-block;
@@ -47,6 +48,25 @@
                                     right: 0;
                                     top: 4px;
                                 }
+                            }
+                        }
+                    }
+                    .img-wrap{
+                        font-size: 0;
+                        float: left;
+                        padding-right: 0;
+                        a{  
+                            display: block;
+                            overflow: hidden;
+                            .img_box{
+                                margin-right: 28px;
+                                display: inline-block;
+                                width: 169px;
+                                height: 109px;
+                                overflow: hidden;
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                                background-size: cover;
                             }
                         }
                     }

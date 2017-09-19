@@ -6,6 +6,7 @@
   height: auto;
   overflow: hidden;
   z-index: 0;
+  background: #EEFBFF;
 }
 
 #wrap1 {
@@ -313,4 +314,365 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+#main .main_middle_box .main-content .dRight {
+  position: relative;
+  float: right;
+  margin-top: 60px;
+  margin-left: -297px;
+  width: 297px;
+  font-family: "Microsoft Yahei";
+}
+#main .main_middle_box .main-content .dRight .download-part {
+  background: #15b2e2;
+  color: #fff;
+  padding-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+#main .main_middle_box .main-content .dRight .download-part .tit {
+  font-size: 22px;
+  padding-left: 32px;
+  font-weight: 700;
+  background: url(../img/list/ico.png) 16px center no-repeat;
+}
+#main .main_middle_box .main-content .dRight .download-part .tit .more {
+  display: block;
+  position: absolute;
+  right: 22px;
+  top: 28px;
+  width: 13px;
+  height: 13px;
+  background-repeat: no-repeat;
+  background-position: -310px -147px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul {
+  overflow: hidden;
+  margin-top: 10px;
+  border-top: 1px solid #b1f5f9;
+  background: url(../img/list/bg_line.png) center center no-repeat;
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul li {
+  width: 148px;
+  height: 90px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul li a {
+  color: #fff;
+  font-size: 14px;
+  width: 148px;
+  height: 90px;
+  display: block;
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul li:hover {
+  background: #47d2fd;
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul .li1 i {
+  display: block;
+  margin: 16px auto 7px;
+  width: 30px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: -297px -112px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul .li2 i {
+  display: block;
+  margin: 16px auto 7px;
+  width: 26px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-position: -297px -39px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul .li3 i {
+  display: block;
+  margin: 16px auto 7px;
+  width: 29px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: -297px -76px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .dRight .download-part .download-ul .li4 i {
+  display: block;
+  margin: 16px auto 7px;
+  width: 39px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: 0px -265px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .dRight .server-part {
+  position: relative;
+  border-left: 1px solid #9ddef3;
+  border-bottom: 1px solid #9ddef3;
+}
+#main .main_middle_box .main-content .dRight .server-part .tit {
+  background: url(../img/list/ico2.png) 16px 30px no-repeat #f2feff;
+  color: #23b0eb;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #23b0eb;
+  font-size: 22px;
+  padding-left: 32px;
+  font-weight: 700;
+}
+#main .main_middle_box .main-content .dRight .server-part .tit .more {
+  background-position: -297px -147px;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  right: 22px;
+  top: 28px;
+  width: 13px;
+  height: 13px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .dRight .server-part .serverlist {
+  font-size: 14px;
+  color: #6c6c6c;
+  padding: 8px 0 16px;
+  padding-bottom: 16px;
+  background: #f2feff;
+  overflow: hidden;
+}
+#main .main_middle_box .main-content .dRight .server-part .serverlist li {
+  width: 112px;
+  float: left;
+  line-height: 27px;
+  padding-left: 35px;
+  background: url(../img/list/ico3.png) 16px center no-repeat;
+}
+#main .main_middle_box .main-content .dRight .server-part .serverlist .li_Red a {
+  color: #ff3000;
+}
+#main .main_middle_box .main-content .tool-part {
+  position: relative;
+  border-left: 1px solid #9ddef3;
+  border-right: 1px solid #9ddef3;
+}
+#main .main_middle_box .main-content .tool-part .tit {
+  font-weight: 700;
+  color: #23b0eb;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #23b0eb;
+  font-size: 22px;
+  padding-left: 32px;
+  background: url(../img/list/ico2.png) 16px 30px no-repeat #f2feff;
+}
+#main .main_middle_box .main-content .tool-part .tit .more {
+  display: block;
+  position: absolute;
+  right: 22px;
+  top: 28px;
+  width: 13px;
+  height: 13px;
+  background-repeat: no-repeat;
+  background-position: -297px -147px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .tool-part .toollist {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background: url(../img/list/right_more.png);
+  background-color: #f2feff;
+}
+#main .main_middle_box .main-content .tool-part .toollist li {
+  width: 147px;
+  height: 85px;
+  float: left;
+  color: #6c6c6c;
+  font-size: 14px;
+  text-align: center;
+}
+#main .main_middle_box .main-content .tool-part .toollist li i {
+  display: block;
+  margin: 18px auto 7px;
+  background-repeat: no-repeat;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .tool-part .toollist .li1 i {
+  width: 33px;
+  height: 31px;
+  background-position: -111px -265px;
+}
+#main .main_middle_box .main-content .tool-part .toollist .li2 i {
+  width: 35px;
+  height: 31px;
+  background-position: -144px -265px;
+}
+#main .main_middle_box .main-content .tool-part .toollist .li3 i {
+  width: 38px;
+  height: 33px;
+  background-position: -73px -265px;
+}
+#main .main_middle_box .main-content .tool-part .toollist .li4 i {
+  width: 36px;
+  height: 30px;
+  background-position: -179px -265px;
+}
+#main .main_middle_box .main-content .tool-part .toollist .li5 i {
+  width: 34px;
+  height: 34px;
+  background-position: -39px -265px;
+}
+#main .main_middle_box .main-content .tool-part .toollist .li6 i {
+  width: 32px;
+  height: 39px;
+  background-position: -297px 0px;
+}
+#main .main_middle_box .main-content .move-part-wrap {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part {
+  width: 297px;
+  overflow: hidden;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part {
+  position: relative;
+  border-top: 1px solid #9ddef3;
+  border-left: 1px solid #9ddef3;
+  border-right: 1px solid #9ddef3;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .tit {
+  color: #23b0eb;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #23b0eb;
+  font-size: 22px;
+  padding-left: 32px;
+  font-weight: 700;
+  background: url(../img/list/ico2.png) no-repeat 16px 30px #f2feff;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .tit .more {
+  display: block;
+  position: absolute;
+  right: 22px;
+  top: 28px;
+  width: 13px;
+  height: 13px;
+  background-repeat: no-repeat;
+  background-position: -297px -147px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap {
+  background: #f2feff;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap .xinfu-tit {
+  color: #23b0eb;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap .xinfu-tit i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 9px;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap .xinfu-tit .i1 {
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-position: -297px -160px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap .xinfu-tit .i2 {
+  margin-left: 4px;
+  background-repeat: no-repeat;
+  background-position: -312px -160px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap .xinfulist {
+  color: #b0fcf6;
+  background: #23b0eb;
+  width: 284px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap .xinfulist li {
+  padding: 10px 0;
+  border-bottom: 1px solid #3ad8ef;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .xinfu-part .xinfu-wrap .xinfulist li .xinfu-time {
+  line-height: 28px;
+  padding-left: 35px;
+  position: relative;
+  font-size: 14px;
+  background: url(../img/list/ico3.png) 16px center no-repeat;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .activity-part {
+  position: relative;
+  border: 1px solid #9ddef3;
+  background: #effbff;
+  overflow: hidden;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .activity-part .tit {
+  color: #23b0eb;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #23b0eb;
+  font-size: 22px;
+  padding-left: 32px;
+  font-weight: 700;
+  background: url(../img/list/ico2.png) no-repeat 16px 30px;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .activity-part .tit .more {
+  display: block;
+  position: absolute;
+  right: 22px;
+  top: 28px;
+  width: 13px;
+  height: 13px;
+  background-repeat: no-repeat;
+  background-position: -297px -147px;
+  background-image: url(../img/list/right_more.png);
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .activity-part .piclist {
+  height: 152px;
+  width: 308px;
+  overflow: hidden;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .activity-part .piclist li {
+  width: 142px;
+  float: left;
+  margin-right: 11px;
+  margin-bottom: 16px;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .activity-part .piclist li a img {
+  height: 119px;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .activity-part .piclist li a p {
+  background: #444242;
+  height: 34px;
+  color: #d5d5d5;
+  font-size: 12px;
+  line-height: 34px;
+  overflow: hidden;
+  text-align: center;
+}
+#main .main_middle_box .main-content .move-part-wrap .move-part .totop {
+  width: 49px;
+  height: 50px;
+  display: block;
+  position: relative;
+  margin-top: 20px;
+  background: url(../img/list/top.png) no-repeat 0 0;
+}
+
+.list_active {
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 100 !important;
 }

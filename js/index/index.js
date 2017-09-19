@@ -287,12 +287,15 @@ require(["../config"], function() {
 				}.bind(this),200)
 			},
 			floor_audio : function(){
+				this.mp3 = ["cac","denlu","dhw","hgs","jnyw","jyc","nerc","tg","zzg"]
+				console.log()
+				var _this = this
 				$(window).scroll(function(){
 					var scrolltop = $(this).scrollTop()
-					var bott_hei = $('body').height()-$('#floor_box').height()-990
+					var bott_hei = $('body').height()-$('#floor_box').height()-990;
 					if( scrolltop > bott_hei){
 						if(!$('#adu').attr('src')){
-							$('#adu').attr('src','../mp3/jyc.mp3')
+							$('#adu').attr('src','../mp3/'+_this.mp3[Math.random()*9 | 0]+'.mp3')
 						}else{
 							
 						}

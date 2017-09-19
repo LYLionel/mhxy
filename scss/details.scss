@@ -1,0 +1,779 @@
+#wrap {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1920px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
+    background: #EEFBFF;
+}
+
+#wrap1 {
+    min-height: 1600px;
+    background: url(../img/list/bj.webp) center top no-repeat;
+}
+
+#main {
+    height: 100%;
+    .nav_box {
+        height: 156px;
+        width: 1108px;
+        margin: auto;
+        padding-left: 108px;
+        padding-top: 25px;
+        position: relative;
+        .btn-logo {
+            width: 200px;
+            height: 98px;
+            margin-right: 15px;
+            text-indent: -9999px;
+            background: url(../img/list/logo.webp);
+            float: left;
+            position: relative;
+            z-index: 1;
+        }
+        .nav-con {
+            overflow: hidden;
+            .nav-parent {
+                padding-top: 16px;
+                color: #fff;
+                overflow: hidden;
+                a {
+                    float: left;
+                    width: 90px;
+                    line-height: 30px;
+                    height: 30px;
+                    text-align: center;
+                    font-weight: 700;
+                    display: block;
+                    color: #fff;
+                    font-size: 14px;
+                }
+                a:first-child {
+                    width: 64px;
+                }
+                i {
+                    display: block;
+                    float: left;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 14px;
+                    width: 10px;
+                    text-indent: -9999px;
+                    font-style: italic;
+                }
+            }
+            .nav-sub {
+                padding-left: 92px;
+                padding-bottom: 50px;
+                overflow: hidden;
+                ul {
+                    float: left;
+                    width: 100px;
+                    li {
+                        a {
+                            width: 100%;
+                            text-align: left;
+                            line-height: 24px;
+                            opacity: .85;
+                            color: #fff;
+                            font-size: 14px;
+                            .i-hot {
+                                background: url(../img/list/hot.png)no-repeat;
+                                display: inline-block;
+                                width: 11px;
+                                height: 11px;
+                                margin-left: 6px;
+                                line-height: 24px;
+                                vertical-align: baseline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main_middle_box {
+        position: relative;
+        margin: 0 auto;
+        max-width: 1920px;
+        .main-content {
+            margin: 0 auto;
+            padding: 0 0 46px;
+            min-width: 903px;
+            width: 80%;
+            max-width: 1097px;
+            zoom: 1;
+            #dLeft {
+                position: relative;
+                float: left;
+                margin-top: 60px;
+                padding: 0;
+                width: 100%;
+                height: auto;
+                min-height: 1580px;
+                .dLeft-wrap {
+                    margin-right: 297px;
+                    background: #fff;
+                    max-width: 800px;
+                    .nie-art {
+                        position: relative;
+                        margin: 0 auto;
+                        padding-top: 40px;
+                        width: 90%;
+                        font-family: "Microsoft Yahei";
+                        z-index: 0;
+                        .artTitle {
+                            margin: 0 0 6px;
+                            font: 400 28px/40px "Microsoft Yahei";
+                            color: #565656;
+                            text-align: center;
+                        }
+                        .artInfo {
+                            color: #868686;
+                            line-height: 24px;
+                            font-size: 14px;
+                            position: relative;
+                            text-align: left;
+                            .wx-order {
+                                width: 90px;
+                                height: 24px;
+                                line-height: 24px;
+                                background: #f24853;
+                                position: absolute;
+                                right: 0;
+                                top: -2px;
+                                color: #fff;
+                                text-indent: 1em;
+                                text-decoration: none;
+                                text-align: center;
+                                i {
+                                    width: 9px;
+                                    height: 12px;
+                                    display: block;
+                                    top: 6px;
+                                    left: 10px;
+                                    position: absolute;
+                                    background: url(../img/list/tj.webp)no-repeat;
+                                }
+                            }
+                            .artKeyword {
+                                color: #868686;
+                                line-height: 24px;
+                                font-size: 14px;
+                                span {
+                                    color: #23b0eb;
+                                    text-decoration: underline;
+                                    line-height: 24px;
+                                    font-size: 14px;
+                                }
+                            }
+                            .artDate {
+                                color: #868686;
+                                line-height: 24px;
+                                font-size: 14px;
+                                font-family: Verdana;
+                            }
+                            .adapt-font {
+                                color: #868686;
+                                font-size: 0;
+                                text-align: right;
+                                position: absolute;
+                                right: 106px;
+                                top: 0;
+                                z-index: 10;
+                                line-height: 24px;
+                                span {
+                                    font-size: 16px;
+                                    vertical-align: top;
+                                    color: #15b2e2;
+                                }
+                                .dec-font {
+                                    width: 21px;
+                                    height: 21px;
+                                    display: inline-block;
+                                    margin-right: 8px;
+                                    font-size: 16px;
+                                    color: #15b2e2;
+                                    text-decoration: none;
+                                    background: url(../img/list/pev.png)no-repeat 0 0;
+                                }
+                                .add-font {
+                                    width: 21px;
+                                    height: 21px;
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    color: #15b2e2;
+                                    text-decoration: none;
+                                    background: url(../img/list/pev.png)no-repeat right 0;
+                                }
+                            }
+                        }
+                        .artText {
+                            font-size: 20px;
+                            color: #2b2b2b;
+                            margin: 0 auto;
+                            padding: 10px 0;
+                            line-height: 24px;
+                            p {
+                                margin: 0.436em 0 1.25em;
+                                font-size: 1em;
+                                line-height: 1.875em;
+                                color: #403f3f;
+                            }
+                            .p_center{
+                                text-align: center;
+                                img{
+                                    max-width: 600px;
+                                    margin: 0 auto;
+                                }
+                            }
+                            .album{
+                                margin-bottom: 3em;
+                                .carousel{
+                                    position: relative;
+                                    width: 610px;
+                                    margin: 0 auto;
+                                    .bb-bookblock{
+                                        height: 400px;
+                                        width: 600px;
+                                      
+                                        .book{
+                                            width:600px;
+                                            height:400px;
+                                            position:relative;
+                                            transform-style:preserve-3d;
+                                            margin:200px auto;
+                                            transform: perspective(800px) rotateX(10deg);
+                                            border:solid 1px #b6b6b6;
+                                            overflow: hidden;
+                                            li{
+                                                position: absolute;
+                                                right: 0;
+                                                width:305px;
+                                                height:400px;
+                                                line-height:300px;
+                                                text-align:center;
+                                                font-size:60px;
+                                                font-weight:bold;
+                                                color:#fff;
+                                                animation-fill-mode: forwards;
+                                                transform-origin: left center;
+                                                z-index:1;
+                                 
+                                                img{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                }
+                                                .wl2{
+                                                    display: none;
+                                                }
+                                                
+                                            }
+                                            .li_first{
+                                                right:305px;
+                                            }
+                                            
+                                            li:hover .wl1{
+                                                display: none;
+                                            }
+                                            li:hover .wl2{
+                                                display: block;
+                                            }
+              
+                                        }
+                                        @keyframes zhuan{
+                                            from{
+                                                transform:rotateY(0deg)
+                                            }
+                                            to{
+                                                transform:rotateY(-180deg)
+                                            }
+                                        }
+                                        @keyframes fzhuan{
+                                            from{
+                                                transform:rotateY(-180deg)
+                                            }
+                                            to{
+                                                transform:rotateY(0deg)
+                                            }
+                                        }
+                                    }
+                                    .book_left{
+                                        width: 32px;
+                                        height: 32px;
+                                        background: url(../img/list/btn_left.cur)no-repeat 0 0;
+                                        position: absolute;
+                                        top:50%;
+                                        left: -45px;
+                                        cursor: pointer;
+                                    }
+                                    .book_right{
+                                        width: 32px;
+                                        height: 32px;
+                                        background: url(../img/list/btn_right.cur)no-repeat 0 0;
+                                        position: absolute;
+                                        top:50%;
+                                        right: -45px;
+                                        cursor: pointer;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        .share-wrap {
+                            position: relative;
+                            width: 100%;
+                            overflow: hidden;
+                            .wx-order {
+                                top: 18px;
+                                right: 214px;
+                                line-height: 24px;
+                                width: 90px;
+                                height: 24px;
+                                background: #f24853;
+                                position: absolute;
+                                color: #fff;
+                                text-indent: 1em;
+                                text-decoration: none;
+                                text-align: center;
+                                i {
+                                    width: 9px;
+                                    height: 12px;
+                                    display: block;
+                                    top: 6px;
+                                    left: 10px;
+                                    position: absolute;
+                                    background: url(../img/list/tj.webp)no-repeat;
+                                }
+                            }
+                            .nie-share {
+                                float: right;
+                                padding: 20px 0 10px;
+                                overflow: hidden;
+                                .nie-share1 {
+                                    line-height: 0!important;
+                                    position: relative;
+                                    font-size: 0;
+                                    display: inline-block;
+                                    .nie-share-txt {
+                                        color: #403f3f;
+                                        margin-right: 10px;
+                                        font-family: "Microsoft Yahei";
+                                        font-size: 16px;
+                                        display: inline-block;
+                                        float: left;
+                                        height: 20px;
+                                        line-height: 20px;
+                                    }
+                                    .nie-share-iconBtn {
+                                        float: left;
+                                        li {
+                                            float: left;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .artRemark {
+                            margin: 10px 0;
+                            padding: 10px 0;
+                            border-top: 1px #ccc dashed;
+                        }
+                        .prevnext {
+                            padding-bottom: 86px;
+                            .prevnews {
+                                display: block;
+                                font-size: 14px;
+                                text-decoration: none;
+                                color: #444242;
+                                width: 48%;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                float: left;
+                            }
+                            .nextnews {
+                                text-align: right;
+                                display: block;
+                                font-size: 14px;
+                                text-decoration: none;
+                                color: #444242;
+                                width: 48%;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+            }
+            .dRight {
+                position: relative;
+                float: right;
+                margin-top: 60px;
+                margin-left: -297px;
+                width: 297px;
+                font-family: "Microsoft Yahei";
+                .download-part {
+                    background: #15b2e2;
+                    color: #fff;
+                    padding-top: 20px;
+                    position: relative;
+                    overflow: hidden;
+                    .tit {
+                        font-size: 22px;
+                        padding-left: 32px;
+                        font-weight: 700;
+                        background: url(../img/list/ico.png) 16px center no-repeat;
+                        .more {
+                            display: block;
+                            position: absolute;
+                            right: 22px;
+                            top: 28px;
+                            width: 13px;
+                            height: 13px;
+                            background-repeat: no-repeat;
+                            background-position: -310px -147px;
+                            background-image: url(../img/list/right_more.png);
+                        }
+                    }
+                    .download-ul {
+                        overflow: hidden;
+                        margin-top: 10px;
+                        border-top: 1px solid #b1f5f9;
+                        background: url(../img/list/bg_line.png) center center no-repeat;
+                        li {
+                            width: 148px;
+                            height: 90px;
+                            float: left;
+                            text-align: center;
+                            cursor: pointer;
+                            a{
+                                color: #fff;
+                                font-size: 14px;
+                                width: 148px;
+                                height: 90px;
+                                display: block;
+                            }
+                        }
+                        li:hover{
+                            background: #47d2fd;
+                        }
+                        .li1 i{
+                            display: block;
+                            margin: 16px auto 7px;
+                            width: 30px;
+                            height: 35px;
+                            background-repeat: no-repeat;
+                            background-position: -297px -112px;
+                            background-image: url(../img/list/right_more.png);
+                        }
+                        .li2 i{
+                            display: block;
+                            margin: 16px auto 7px;
+                            width: 26px;
+                            height: 37px;
+                            background-repeat: no-repeat;
+                            background-position: -297px -39px;
+                            background-image: url(../img/list/right_more.png);
+                        }
+                        .li3 i{
+                            display: block;
+                            margin: 16px auto 7px;
+                            width: 29px;
+                            height: 36px;
+                            background-repeat: no-repeat;
+                            background-position: -297px -76px;
+                            background-image: url(../img/list/right_more.png);
+                        }
+                        .li4 i{
+                            display: block;
+                            margin: 16px auto 7px;
+                            width: 39px;
+                            height: 36px;
+                            background-repeat: no-repeat;
+                            background-position: 0px -265px;
+                            background-image: url(../img/list/right_more.png);
+                        }
+                    }
+                }
+                .server-part{
+                    position: relative;
+                    border-left: 1px solid #9ddef3;
+                    border-bottom: 1px solid #9ddef3;
+                    .tit{
+                        background: url(../img/list/ico2.png) 16px 30px no-repeat #f2feff;
+                        color: #23b0eb;
+                        padding-top: 20px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #23b0eb;
+                        font-size: 22px;
+                        padding-left: 32px;
+                        font-weight: 700;
+                        .more{
+                            background-position: -297px -147px;
+                            background-repeat: no-repeat;
+                            display: block;
+                            position: absolute;
+                            right: 22px;
+                            top: 28px;
+                            width: 13px;
+                            height: 13px;
+                            background-image:url(../img/list/right_more.png);
+                        }
+                    }
+                    .serverlist{
+                        font-size: 14px;
+                        color: #6c6c6c;
+                        padding: 8px 0 16px;
+                        padding-bottom: 16px;
+                        background: #f2feff;
+                        overflow: hidden;
+                        li{
+                            width: 112px;
+                            float: left;
+                            line-height: 27px;
+                            padding-left: 35px;
+                            background: url(../img/list/ico3.png) 16px center no-repeat;
+                        }
+                        .li_Red a{
+                            color: #ff3000;
+                        }
+                    }
+                    
+                }
+            }
+            .tool-part{
+                position: relative;
+                border-left: 1px solid #9ddef3;
+                border-right: 1px solid #9ddef3;
+                .tit{
+                    font-weight: 700;
+                    color: #23b0eb;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #23b0eb;
+                    font-size: 22px;
+                    padding-left: 32px;
+                    background:url(../img/list/ico2.png) 16px 30px no-repeat #f2feff;
+                    .more{
+                        display: block;
+                        position: absolute;
+                        right: 22px;
+                        top: 28px;
+                        width: 13px;
+                        height: 13px;
+                        background-repeat: no-repeat;
+                        background-position: -297px -147px;
+                        background-image:url(../img/list/right_more.png);
+                    }
+                }
+                .toollist{
+                    overflow: hidden;
+                    background-repeat: no-repeat;
+                    background-position: 0px 0px;
+                    background: url(../img/list/right_more.png);
+                    background-color: #f2feff;
+                    li{
+                        width: 147px;
+                        height: 85px;
+                        float: left;
+                        color: #6c6c6c;
+                        font-size: 14px;
+                        text-align: center;
+                        i{  
+                            display: block;
+                            margin: 18px auto 7px;
+                            background-repeat: no-repeat;
+                            background-image: url(../img/list/right_more.png);
+                        }
+                    }
+                    .li1 i{
+                        width: 33px;
+                        height: 31px;
+                        background-position: -111px -265px;
+                    }
+                    .li2 i{
+                        width: 35px;
+                        height: 31px;
+                        background-position: -144px -265px;
+                    }
+                    .li3 i{
+                        width: 38px;
+                        height: 33px;
+                        background-position: -73px -265px;
+                    }
+                    .li4 i{
+                        width: 36px;
+                        height: 30px;
+                        background-position: -179px -265px;
+                    }
+                    .li5 i{
+                        width: 34px;
+                        height: 34px;
+                        background-position: -39px -265px;
+                    }
+                    .li6 i{
+                        width: 32px;
+                        height: 39px;
+                        background-position: -297px 0px;
+                    }
+                }
+            }
+            .move-part-wrap{
+                width: 100%;
+                position: relative;
+                z-index: 10;
+                .move-part{
+                    width: 297px;
+                    overflow: hidden;
+                    .xinfu-part{
+                        position: relative;
+                        border-top: 1px solid #9ddef3;
+                        border-left: 1px solid #9ddef3;
+                        border-right: 1px solid #9ddef3;
+                        .tit{
+                            color: #23b0eb;
+                            padding-top: 20px;
+                            padding-bottom: 10px;
+                            border-bottom: 1px solid #23b0eb;
+                            font-size: 22px;
+                            padding-left: 32px;
+                            font-weight: 700;
+                            background: url(../img/list/ico2.png) no-repeat 16px 30px #f2feff;
+                            .more{
+                                display: block;
+                                position: absolute;
+                                right: 22px;
+                                top: 28px;
+                                width: 13px;
+                                height: 13px;
+                                background-repeat: no-repeat;
+                                background-position: -297px -147px;
+                                background-image: url(../img/list/right_more.png);
+                            }
+                        }
+                        .xinfu-wrap{
+                            background: #f2feff;
+                            padding-bottom: 20px;
+                            overflow: hidden;
+                            .xinfu-tit{
+                                color: #23b0eb;
+                                font-size: 16px;
+                                text-align: center;
+                                padding-top: 12px;
+                                padding-bottom: 10px;
+                                font-weight: 700;
+                                i{
+                                  display: inline-block;
+                                  vertical-align: middle;
+                                  width: 15px;
+                                  height: 9px;
+                                }
+                                .i1{
+                                    margin-right: 4px;
+                                    background-repeat: no-repeat;
+                                    background-position: -297px -160px;
+                                    background-image:url(../img/list/right_more.png);
+                                }
+                                .i2{
+                                    margin-left: 4px;
+                                    background-repeat: no-repeat;
+                                    background-position: -312px -160px;
+                                    background-image:url(../img/list/right_more.png);
+                                }
+                            }
+                            .xinfulist{
+                                color: #b0fcf6;
+                                background: #23b0eb;
+                                width: 284px;
+                                margin: 0 auto;
+                                overflow: hidden;
+                                li{
+                                    padding: 10px 0;
+                                    border-bottom: 1px solid #3ad8ef;
+                                    .xinfu-time{
+                                        line-height: 28px;
+                                        padding-left: 35px;
+                                        position: relative;
+                                        font-size: 14px;
+                                        background: url(../img/list/ico3.png) 16px center no-repeat;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .activity-part{
+                        position: relative;
+                        border: 1px solid #9ddef3;
+                        background: #effbff;
+                        overflow: hidden;
+                        .tit{
+                            color: #23b0eb;
+                            padding-top: 20px;
+                            padding-bottom: 10px;
+                            border-bottom: 1px solid #23b0eb;
+                            font-size: 22px;
+                            padding-left: 32px;
+                            font-weight: 700;
+                            background: url(../img/list/ico2.png) no-repeat 16px 30px;
+                            .more{
+                                display: block;
+                                position: absolute;
+                                right: 22px;
+                                top: 28px;
+                                width: 13px;
+                                height: 13px;
+                                background-repeat: no-repeat;
+                                background-position: -297px -147px;
+                                background-image: url(../img/list/right_more.png);
+                            }
+                        }
+                        .piclist{
+                            height: 152px;
+                            width: 308px;
+                            overflow: hidden;
+                            li{
+                                width: 142px;
+                                float: left;
+                                margin-right: 11px;
+                                margin-bottom: 16px;
+                                a{
+                                  img{
+                                    height: 119px;
+                                  }
+                                  p{
+                                    background: #444242;
+                                    height: 34px;
+                                    color: #d5d5d5;
+                                    font-size: 12px;
+                                    line-height: 34px;
+                                    overflow: hidden;
+                                    text-align: center;
+                                  }
+                                }
+                            }
+                        }
+                    }
+                    .totop{
+                        width: 49px;
+                        height: 50px;
+                        display: block;
+                        position: relative;
+                        margin-top: 20px;
+                        background: url(../img/list/top.png) no-repeat 0 0;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+.list_active{
+    position: fixed !important;
+    top:0 !important;
+    z-index: 100 !important;
+}
+ 
