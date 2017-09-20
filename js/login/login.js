@@ -65,7 +65,7 @@
  							success:function(data){
  								console.log(data)
  								if(data == 1){
- 									window.location.href=('http://localhost:8080/html/index.html')
+ 									window.location.href=('./index.html')
  								}else{
  									$('.m-nerror').show();
  									$('.ferrorhead').html('该用户已经注册过');
