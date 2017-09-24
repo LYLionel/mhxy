@@ -13,7 +13,7 @@ require(["../config"], function() {
 				this.index = 1;
 				this.book();
 			},
-			right_fixed: function() {
+			right_fixed: function() { //右侧fixed的定位
 				var top = $('.move-part-wrap').offset().top;
 				$(window).scroll(function() {
 					var scrolltop = $(this).scrollTop()
@@ -30,7 +30,7 @@ require(["../config"], function() {
 					},500)
 				})
 			},
-			loadli: function() {
+			loadli: function() {  //懒加载
 				$(window).scroll(function() {
 					if(Math.ceil($('body').scrollTop() + window.innerHeight) + 100 >= $('body').height()) {
 						var html = ''
@@ -59,7 +59,7 @@ require(["../config"], function() {
 				})
 
 			},
-			add_dec:function(){
+			add_dec:function(){  //字号大小的变换
 				$('.add-font').on('click',function(){
 					var size = parseInt($('.artText').css('fontSize'));
 					if(size >= 22){
@@ -79,7 +79,7 @@ require(["../config"], function() {
 					$('.artText').css('fontSize',size)
 				})
 			},
-			book:function(){
+			book:function(){ // 翻页效果  动态特效
 				var _this = this
 				$('.book_left').on('click',function(){
 					if(_this.num == $('.book>li').length){

@@ -27,21 +27,21 @@ require(["../config"], function() {
 				this.floor_dh();
 				this.floor_audio();
 			},
-			ajax: function() {
+			ajax: function() { //请求
 				var _this = this
 				jsonp.res('https://a.game.163.com/fz/interface/frontend/fz.do?pos=menghuanxiyou-lunhuan-485403', function(data) {
 					var content = data.result.content['menghuanxiyou-lunhuan-485403']
 					_this.data(content)
 				})
 			},
-			data : function(content){
+			data : function(content){ //数据的拼接和处理
 				var html = '';
 				for(var i = 0; i < content.length; i++) {
 						html += '<li><img src="' + content[i].src + '" alt="" /></li>'
 					}
 					$('.m2_banner_ul').html(html)
 			},
-			banner : function(){
+			banner : function(){ //轮播图
 				var _this = this
 				$('.m2_banner_small>li').on('mouseenter',function(){
 					
@@ -57,7 +57,7 @@ require(["../config"], function() {
 					
 				})
 			},
-			tab : function(){
+			tab : function(){ //tab切换
 				var _this = this
 				$('.m2_tab_ul>li').on('mouseenter',function(){
 					$(this).css('color','#f24854').siblings().css('color','#3C3C3C')
@@ -68,7 +68,7 @@ require(["../config"], function() {
 					
 				})
 			},
-			alltab : function(a,b,c,d){
+			alltab : function(a,b,c,d){ //通用的tab切换
 				$(''+a+'>li').on('mouseenter',function(){
 					$(this).addClass(b).siblings().removeClass(b)
 					$(''+c+'>li').eq($(this).index()).addClass('show').siblings().removeClass('show')
@@ -77,7 +77,7 @@ require(["../config"], function() {
 					},300)
 				})
 			},
-			jb : function(a,b){
+			jb : function(a,b){ //品牌左侧特效
 				$(a).on('mouseenter',function(){
 					$(b).stop().animate({
 						width : 50
@@ -89,10 +89,10 @@ require(["../config"], function() {
 					},300)
 				})
 			},
-			hoverdir : function(a){
+			hoverdir : function(a){ //调用滑入显示黑色框的调用
 				$(a).hoverdir()
 			},
-			m3_hover : function(){
+			m3_hover : function(){ //移入图片上的显示效果
 				$('.m3_m1_img_box').on('mouseenter',function(){
 					$('.mb_wen').stop().animate({
 						bottom:15
@@ -184,7 +184,7 @@ require(["../config"], function() {
 					},500)
 				})
 			},
-			go : function(){
+			go : function(){ // go的特效
 				$('.i-go').on('mouseover',function(){
 					var $i = $(this).find('i')
 					$i.stop().animate({
@@ -208,7 +208,7 @@ require(["../config"], function() {
 				})
 				
 			},
-			m4_tab : function(){
+			m4_tab : function(){ //下方门派切换的TAB
 				var _this = this
 				this.m4_timer = setInterval(function(){
 					var index = $('.m4_show').index()
@@ -254,7 +254,7 @@ require(["../config"], function() {
 					},300)
 				})
 			},
-			role : function(){
+			role : function(){ //下方门派切换的TAB
 				$('.peo .role-txt').on('mouseenter',function(){
 					$(this).parent().width(538)
 					$(this).parent().siblings().width(76)
@@ -273,7 +273,7 @@ require(["../config"], function() {
 					$(this).siblings().find('.group-item').width(0)
 				})
 			},
-			floor_dh : function(){
+			floor_dh : function(){ //底部人物动画
 				this.sum = 0 ;
 				setInterval(function(){
 					this.sum += 1
@@ -286,7 +286,7 @@ require(["../config"], function() {
 					$('.west-04').css('backgroundPositionX','-'+this.sum*210+'px')
 				}.bind(this),200)
 			},
-			floor_audio : function(){
+			floor_audio : function(){ //底部音乐
 				this.mp3 = ["cac","denlu","dhw","hgs","jnyw","jyc","nerc","tg","zzg"]
 				console.log()
 				var _this = this

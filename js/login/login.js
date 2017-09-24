@@ -12,7 +12,7 @@
  				this.pd = true;
  				this.ajax();
  			},
- 			user:function(){
+ 			user:function(){ //用户名的验证
  				$('#user_ipt').on('blur',function(){
 					var value = $(this).val();
  					var email_reg = /^[^@\s\?]+@[^@\s\?]+(\.[^@\s\?]+)+$/;
@@ -30,7 +30,7 @@
  					}
  				})
  			},
- 			paword:function(){
+ 			paword:function(){ //密码的验证
  				$('#password_input').on('blur',function(){
  					var value = $(this).val();
  					if(value.length >=6 && value.length <=16){
@@ -46,13 +46,13 @@
  					}
  				})
  			},
- 			utip:function(){
+ 			utip:function(){ //显示框的特效
  				$('.u-tip').on('click',function(){
  					$(this).parent().find('input').val('')
  					$(this).parent().css('borderColor','#c5cddb')
  				})
  			},
- 			ajax:function(){
+ 			ajax:function(){   // 用户信息请求验证和请求
  				var _this = this
  				$('#doregister').on('click',function(){
  					var user = $('#user_ipt').val()

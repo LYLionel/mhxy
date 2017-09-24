@@ -9,13 +9,13 @@ require(["../config"],function(){
 				this.f_top();
 				this.to_top();
 			},
-			tab:function(){
+			tab:function(){ //右侧tab切换
 				$('.menu>a').on('click',function(){
 					$('.menu>a').removeClass('current')
 					$(this).addClass('current')
 				})
 			},
-			f_top:function(){
+			f_top:function(){  //top返回顶部的显示和隐藏
 				$(window).scroll(function(){
 					if($('body').scrollTop()>window.innerHeight+100){
 						$('.gototop').fadeIn(300)
@@ -24,7 +24,7 @@ require(["../config"],function(){
 					}
 				})
 			},
-			to_top:function(){
+			to_top:function(){ //top返回顶部
 				$('.gototop').on('click',function(){
 					$('body').animate({
 						scrollTop:0
